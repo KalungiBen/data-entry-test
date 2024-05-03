@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Accuracy Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="intro">
+        <h1>Welcome to the Data Entry Accuracy Test!</h1>
+        <p>Ready to start your Data Entry Job test? Begin by entering your details to register for the test. Once you start, you will be given a passage to type as accurately and quickly as you can. Your typing speed and accuracy will be calculated, so be sure to type carefully!<br><b>Wish you success!</b></p>
+    </div>
+    <div id="container">
+        <div id="registration">
+            <h1>Applicant Details</h1>
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <input type="tel" id="phone" placeholder="Enter your phone number" required>
+            <button type="button" id="startButton">START TYPING TEST</button>
+        </div>
+        <div id="typingTest" style="display:none;">
+            <h3 style="margin-top:200px";>Type the text below</h3>
+            <div id="sourceText">
+                "Punctuality is the thief of time," Wilde writes at 12:05, utterly aware that precise moments steal potential spontaneity. Dogs, cats, and axolotls—each has its own mind yet unites under the Moon's gaze at 78 degrees. Your task? Weave these strands into a coherent narrative whilst capturing the essence of quantum whimsy. Additionally, consider Fibonacci's sequence, a playful puzzle intertwined with our lives at every turn. The moment 235 cars buzz past, one can discern patterns like the rhythms in a song or the cadences of time itself.
+            </div>
+            <textarea id="testArea" placeholder="Start typing the text shown above..." disabled></textarea>
+            <div id="timer">Time left: 02:00</div>
+            <div id="wordCount">Words typed: 0</div>
+            <div id="accuracy">Accuracy: 0%</div>
+        </div>
+    </div>
+  
+<footer style="text-align: center; border-top: 1px black solid; padding: 20px; background-color: light; color: black; font-size: 14px; margin-top:100px;  width: 100%;">
+    <p>Copyright ©Benk 2024 Typing Accuracy Test. All Rights Reserved.</p>
+    <p>Developed by <a href="futuredrive.com" style="color: blue; text-decoration: none;">Benk</a></p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
